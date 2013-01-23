@@ -1,4 +1,4 @@
 clutch
 ======
 
-modular, selective IRC bot in Java.
+modular IRC service bot written in Java.
