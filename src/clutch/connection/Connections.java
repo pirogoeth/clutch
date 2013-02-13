@@ -41,4 +41,12 @@ public class Connections {
     public static SocketConnection getConnection(String serverUri) {
         return socketMap.get(idMap.get(serverUri));
     }
+
+    public static Map<Integer, SocketConnection> getConnectionsById() {
+        return idMap;
+    }
+
+    public static Map<String, Integer> getConnectionIdsByString() {
+        return socketMap;
+    }
 }
